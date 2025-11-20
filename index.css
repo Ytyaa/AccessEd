@@ -51,13 +51,6 @@
   border-right: 1px solid #cacaca;
   transition: width 0.3s ease;
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
   .logo {
     padding: 40px 0;
     width: 200px;
@@ -174,6 +167,14 @@
   background: #000000;
   box-shadow: 0 0 5px #0c976983;
   transform: scale(120%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px clamp(20px, 2.5vw, 40px);
 }
 
 .access__content {
